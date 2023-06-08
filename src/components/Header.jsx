@@ -1,18 +1,40 @@
 import React from "react";
-import { SiGithub, SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin, SiWhatsapp } from 'react-icons/si';
+import {FaLaptopCode} from 'react-icons/fa'
+import { Link } from "react-router-dom";
+
 
 export default function Header() {
   return (
     <div className=" sm:flex items-center justify-between ">
-      <h1 className="relative  z-20 text-center text-[24px] sm:text-[32px] py-5 font-black font-test">
+      <div className="sm:flex items-center">
+      <h1 className="relative z-20 text-center text-[24px] sm:text-[32px] py-5 font-black font-test">
         leonardAdjei
       </h1>
+      <FaLaptopCode className="hidden sm:block text-3xl ml-2 text-primary-green"/>
+      </div>
+
 
       <div className="flex w-[174px]  mx-auto sm:mx-0 sm:w-40 text-xl relative z-20 sm:justify-between justify-around   ">
-        <SiGithub />
-        <SiGmail />
+        <Link to="https://github.com/blameleo " target="_blank">
+        <SiGithub/>
+        </Link>
+
+        <Link to="https://www.linkedin.com/in/leonard-adjei-3a07427b/" target="_blank">
         <SiLinkedin />
+        </Link>
+
+        <Link to="mailto:leonardgre@gmail.com?subject=subject&cc=cc@example.com" target="_blank">
+        <SiGmail />
+        </Link>
+
+        <Link to="https://wa.me/233572564119" target="_blank">
         <SiWhatsapp />
+        </Link>
+       
+
+        
+
       </div>
     </div>
   );
