@@ -19,7 +19,7 @@ export default function Hero() {
           src="/images/Group.png"
           alt=""
         />
-        <p className=" font-bold pt-48 sm:pt-20 sm:w-[700px]  text-center sm:text-left text-[40px] leading-10 sm:leading-[88px] sm:text-[68px] lg:text-[78px] ">
+        <p className=" relative font-bold pt-48 sm:pt-20 sm:w-[700px]  text-center sm:text-left text-[40px] leading-10 sm:leading-[88px] sm:text-[68px] lg:text-[78px] ">
           Nice to meet you! <br />
           I'm{" "}
           <span className="border-b-4 inline border-b-primary-green mb-0">
@@ -40,15 +40,15 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="  bg-secondary-dark absolute  sm:right-0  lg:right-40 top-0  pt-32 ">
+      <div className=" bg-secondary-dark absolute  sm:right-0  lg:right-40 top-0  pt-32 ">
         <img
-          className=" absolute z-30 -right-36 bottom-0 sm:bottom-0 sm:-right-20 lg:bottom-20 lg:-left-16"
+          className=" absolute z-30 -right-24 bottom-0 sm:bottom-0 sm:-right-20 lg:bottom-20 lg:-left-16"
           src="/images/Oval.png"
           alt=""
         />
         <img
-          className="w-[174px] relative z-10  sm:h-[500px] sm:w-full"
-          src="/images/img.png"
+          className="w-[174px] relative   sm:h-[500px] sm:w-full"
+          src="/images/pic-removebg.png"
           alt=""
         />
       </div>
