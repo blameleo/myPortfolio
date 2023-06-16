@@ -47,7 +47,7 @@ export default function Hero() {
           alt=""
         />
         <img
-          className="w-[174px] relative   sm:h-[500px] sm:w-full"
+          className="w-[174px]   sm:h-[500px] sm:w-full"
           src="/images/pic-removebg.png"
           alt=""
         />
