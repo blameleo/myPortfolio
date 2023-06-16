@@ -3,6 +3,8 @@ import Button from "./Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import { Link } from "react-scroll";
+
 export default function Hero() {
   useEffect(() => {
     AOS.init();
@@ -33,10 +35,18 @@ export default function Hero() {
         </p>
 
         <div className="w-full flex justify-center sm:block">
-          <Button
-            name="CONTACT ME"
-            style="font-bold border-b-4 pb-2 border-b-primary-green hover:text-primary-green tracking-wider"
-          />
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <Button
+              name="CONTACT ME"
+              style="font-bold border-b-4 pb-2 border-b-primary-green hover:text-primary-green tracking-wider"
+            />
+          </Link>{" "}
         </div>
       </div>
 
