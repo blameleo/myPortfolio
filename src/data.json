@@ -7,11 +7,11 @@
 
 },
 {
-    "image": "/images/port2.png",
-    "title": "spin the bottle",
-    "stack": ["Html","TailwindCSS", "Javascript"],
-    "viewCode": "https://github.com/blameleo/spin-the-bottle",
-    "viewProj": "https://spinthebottleklm.netlify.app/"
+    "image": "/images/proj2.png",
+    "title": "Dictionary app",
+    "stack": ["Html","TailwindCSS", "React"],
+    "viewCode": "https://github.com/blameleo/dictionary-app",
+    "viewProj": "https://dictionary-app-two-ashy.vercel.app//"
 
 },
 {
@@ -39,10 +39,10 @@
 
 },{
     "image": "/images/proj6.png",
-    "title": "Weather App",
-    "stack": ["Html","TailwindCSS","Javascript"],
-    "viewCode": "https://github.com/blameleo/Weather-App",
-    "viewProj": "https://hilarious-daffodil-66c1cd.netlify.app/"
+    "title": "Countries app",
+    "stack": ["Html","TailwindCSS","React"],
+    "viewCode": "https://github.com/blameleo/countries_api_app",
+    "viewProj": "https://countries-api-app-sooty.vercel.app/"
 
 }
 

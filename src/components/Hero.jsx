@@ -29,7 +29,7 @@ export default function Hero() {
           </span>
         </p>
         <p className="py-5 sm:py-10 lg:py-14 sm:text-left text-center text-[16px] sm:text-[18px] text-gray-400">
-          Based in the Accra,i'm front-end developer <br />
+          Based in the Accra,I am developer <br />
           passionate about building accessible web apps <br />
           that users love.
         </p>
